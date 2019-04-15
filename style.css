@@ -51,26 +51,49 @@ font-family: 'Lato', sans-serif;
     text-align: center;
 }
 
+.tile1:hover{
+    background-color: cornflowerblue;
+}
+
 .tile2{
     background-color: gray;
     float: left;
     width: 230px;
     height: 142px;
-    margin: 10px
+    margin: 10px;
+    text-align: center;
+}
+
+.tile2:hover{
+    background-color: darkgray;
 }
 
 .tile3{
     background-color: orangered;
-    width: 480px;
+    width: 460px;
     margin: 10px;
-    height: 142px;
+    height: 122px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tile3:hover{
+    background-color: goldenrod;
 }
 
 .tile4{
     background-color: blueviolet;
-    width: 480px;
+    width: 440px;
     margin: 10px;
-    height: 304px;
+    height: 264px;
+    text-align: center;
+    padding: 20px;
+    text-justify: auto;
+}
+
+.tile4:hover{
+    background-color: darkmagenta;
+   
 }
 
 .yt{
@@ -81,12 +104,20 @@ font-family: 'Lato', sans-serif;
     float: left;
 }
 
+.yt:hover{
+    background-color: darkorange;
+}
+
 .fb{
     width: 105px;
     height: 142px;
     margin: 10px;
     background-color: darkturquoise;
     float: left;
+}
+
+.fb:hover{
+    background-color: deepskyblue;
 }
 
 .g{
@@ -97,10 +128,32 @@ font-family: 'Lato', sans-serif;
     float: left;
 }
 
+.g:hover{
+    background-color: fuchsia;
+}
+
 .tw{
     width: 105px;
     height: 142px;
     margin: 10px;
     background-color: lawngreen;
     float: left;
+}
+
+.tw:hover{
+    background-color: greenyellow;
+}
+
+a.tilelink{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+    height: 142px;
+
+}
+
+a.tilelink1{
+    color: white;
+    text-decoration: none;
 }
